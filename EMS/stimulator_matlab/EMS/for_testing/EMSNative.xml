@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EMSNative</name>
+    </assembly>
+    <members>
+        <member name="T:EMSNative.Ems">
+            <summary>
+            The Ems class provides a CLS compliant, Object (native) interface to the MATLAB
+            functions contained in the files:
+            <newpara></newpara>
+            C:\Users\YKF\Desktop\m\flower.m
+            <newpara></newpara>
+            C:\Users\YKF\Desktop\m\gun.m
+            <newpara></newpara>
+            C:\Users\YKF\Desktop\m\lever.m
+            <newpara></newpara>
+            C:\Users\YKF\Desktop\m\scissors.m
+            <newpara></newpara>
+            C:\Users\YKF\Desktop\m\shield.m
+            <newpara></newpara>
+            C:\Users\YKF\Desktop\m\spiderman.m
+            <newpara></newpara>
+            C:\Users\YKF\Desktop\m\stapler.m
+            </summary>
+            <remarks>
+            @Version 1.0
+            </remarks>
+        </member>
+        <member name="M:EMSNative.Ems.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Runtime instance.
+            </summary>
+        </member>
+        <member name="M:EMSNative.Ems.#ctor">
+            <summary>
+            Constructs a new instance of the Ems class.
+            </summary>
+        </member>
+        <member name="M:EMSNative.Ems.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:EMSNative.Ems.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:EMSNative.Ems.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:EMSNative.Ems.flower">
+             <summary>
+             Provides a void output, 0-input Objectinterface to the flower MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+            
+        </member>
+        <member name="M:EMSNative.Ems.flower(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the flower MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:EMSNative.Ems.flower(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the flower function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:EMSNative.Ems.gun">
+             <summary>
+             Provides a void output, 0-input Objectinterface to the gun MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             1:thumb 2:index 3:middle 4:ring 5:pinky 
+             </remarks>
+            
+        </member>
+        <member name="M:EMSNative.Ems.gun(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the gun MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             1:thumb 2:index 3:middle 4:ring 5:pinky 
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:EMSNative.Ems.gun(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the gun function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             1:thumb 2:index 3:middle 4:ring 5:pinky 
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:EMSNative.Ems.lever">
+             <summary>
+             Provides a void output, 0-input Objectinterface to the lever MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+            
+        </member>
+        <member name="M:EMSNative.Ems.lever(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the lever MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:EMSNative.Ems.lever(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the lever function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:EMSNative.Ems.scissors">
+             <summary>
+             Provides a void output, 0-input Objectinterface to the scissors MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+            
+        </member>
+        <member name="M:EMSNative.Ems.scissors(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the scissors MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:EMSNative.Ems.scissors(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the scissors function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:EMSNative.Ems.shield">
+             <summary>
+             Provides a void output, 0-input Objectinterface to the shield MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+            
+        </member>
+        <member name="M:EMSNative.Ems.shield(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the shield MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:EMSNative.Ems.shield(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the shield function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:EMSNative.Ems.spiderman">
+             <summary>
+             Provides a void output, 0-input Objectinterface to the spiderman MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+            
+        </member>
+        <member name="M:EMSNative.Ems.spiderman(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the spiderman MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:EMSNative.Ems.spiderman(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the spiderman function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:EMSNative.Ems.stapler">
+             <summary>
+             Provides a void output, 0-input Objectinterface to the stapler MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+            
+        </member>
+        <member name="M:EMSNative.Ems.stapler(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the stapler MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:EMSNative.Ems.stapler(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the stapler function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:EMSNative.Ems.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+    </members>
+</doc>

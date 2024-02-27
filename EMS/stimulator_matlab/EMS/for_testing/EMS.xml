@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EMS</name>
+    </assembly>
+    <members>
+        <member name="T:EMS.Ems">
+            <summary>
+            The Ems class provides a CLS compliant, MWArray interface to the MATLAB functions
+            contained in the files:
+            <newpara></newpara>
+            C:\Users\YKF\Desktop\m\flower.m
+            <newpara></newpara>
+            C:\Users\YKF\Desktop\m\gun.m
+            <newpara></newpara>
+            C:\Users\YKF\Desktop\m\lever.m
+            <newpara></newpara>
+            C:\Users\YKF\Desktop\m\scissors.m
+            <newpara></newpara>
+            C:\Users\YKF\Desktop\m\shield.m
+            <newpara></newpara>
+            C:\Users\YKF\Desktop\m\spiderman.m
+            <newpara></newpara>
+            C:\Users\YKF\Desktop\m\stapler.m
+            </summary>
+            <remarks>
+            @Version 1.0
+            </remarks>
+        </member>
+        <member name="M:EMS.Ems.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Runtime instance.
+            </summary>
+        </member>
+        <member name="M:EMS.Ems.#ctor">
+            <summary>
+            Constructs a new instance of the Ems class.
+            </summary>
+        </member>
+        <member name="M:EMS.Ems.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:EMS.Ems.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:EMS.Ems.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:EMS.Ems.flower">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the flower MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+            
+        </member>
+        <member name="M:EMS.Ems.flower(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the flower MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:EMS.Ems.gun">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the gun MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             1:thumb 2:index 3:middle 4:ring 5:pinky 
+             </remarks>
+            
+        </member>
+        <member name="M:EMS.Ems.gun(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the gun MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             1:thumb 2:index 3:middle 4:ring 5:pinky 
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:EMS.Ems.lever">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the lever MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+            
+        </member>
+        <member name="M:EMS.Ems.lever(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the lever MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:EMS.Ems.scissors">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the scissors MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+            
+        </member>
+        <member name="M:EMS.Ems.scissors(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the scissors MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:EMS.Ems.shield">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the shield MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+            
+        </member>
+        <member name="M:EMS.Ems.shield(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the shield MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:EMS.Ems.spiderman">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the spiderman MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+            
+        </member>
+        <member name="M:EMS.Ems.spiderman(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the spiderman MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:EMS.Ems.stapler">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the stapler MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+            
+        </member>
+        <member name="M:EMS.Ems.stapler(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the stapler MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Master9.SetChannelDelay(3,200e-6);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:EMS.Ems.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+    </members>
+</doc>

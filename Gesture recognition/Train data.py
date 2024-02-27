@@ -51,7 +51,6 @@ class TIMITDataset(Dataset):
         return len(self.data)
 
 #load data
-
 array_all, label_all =[], []
 for key in label_set.keys():
     gesture, label = load_data(f'gesture_data_{key}.xlsx')
